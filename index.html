@@ -5,7 +5,7 @@
             var xhttp = new XMLHttpRequest();
                 xhttp.onreadystatechange = function() {
                     if (this.readyState == 4 && this.status == 200) {
-                        document.getElementById("emo").innerHTML = alert(this.responseText);
+                        document.getElementById("emo").innerHTML = document.write(this.responseText);
             }
          };
          xhttp.open("GET", "https://www.moonrisefestival.com/wp-json/", true);
