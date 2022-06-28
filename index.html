@@ -17,7 +17,7 @@ function cors() {
       document.getElementById("demo").innerHTML = alert(this.responseText);
     }
   };
-  xhttp.open("GET", "https://gig-mob-bff-hc-prod.herokuapp.com/api/private/v1/freelancers/0036N00000LBLZGQA5", true);
+  xhttp.open("GET", "https://api.legalzoom.com/v1/web-sessions/sessions", true);
   xhttp.withCredentials = true;
   xhttp.send();
 }
