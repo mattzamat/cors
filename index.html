@@ -17,7 +17,7 @@ function cors() {
       document.getElementById("demo").innerHTML = alert(this.responseText);
     }
   };
-  xhttp.open("GET", "https://api.legalzoom.com/v1/web-sessions/sessions", true);
+  xhttp.open("GET", "https://api.legalzoom.com/my-account-bff", true);
   xhttp.withCredentials = true;
   xhttp.send();
 }
